@@ -10,7 +10,7 @@ public class DBconnect {
 	public static Connection getConn() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_system", "root", "Mysql@2345");
+			conn = DriverManager.getConnection("Please use your URL HERE", "root", "YOUR PASSWORD");
 
 		} catch (Exception e) {
 			e.printStackTrace();
